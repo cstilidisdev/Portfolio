@@ -1,0 +1,46 @@
+(    contains(
+    prop(
+        "Open Tags"
+    ),
+    "Commercial"
+) or    contains(
+    prop(
+        "Open Tags"
+    ),
+    "Marketing"
+) ) and (    contains(
+    prop(
+        "Responsible"
+    ),
+    "Aleksandra"
+) or    contains(
+    prop(
+        "Support"
+    ),
+    "Aleksandra"
+) ) or (    contains(
+    prop(
+        "Team/Area"
+    ),
+    "Sales"
+) or    contains(
+    prop(
+        "Team/Area"
+    ),
+    "Marketing"
+) or    contains(
+    prop(
+        "Team/Area"
+    ),
+    "Commercial"
+) ) and (    contains(
+    prop(
+        "Responsible"
+    ),
+    "Aleksandra"
+) or    contains(
+    prop(
+        "Support"
+    ),
+    "Aleksandra"
+) )

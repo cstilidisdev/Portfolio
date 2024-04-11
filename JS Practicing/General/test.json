@@ -1,0 +1,67 @@
+{
+   
+    "parent": {
+        "database_id": "70e7e7fab8764370821d58812ee188b8"
+    },
+    "properties": {
+             "Name": {
+            "id": "title",
+            "type": "title",
+            "title": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "bank",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "Test 1",
+                    "href": null
+                }
+            ]
+        },
+"Location": {
+            "id": "%7BXsZ",
+            "type": "rich_text",
+            "rich_text": [
+                {
+                    "type": "text",
+                    "text": {
+                        "content": "Street, City",
+                        "link": null
+                    },
+                    "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                    },
+                    "plain_text": "",
+                    "href": null
+                }
+            ]
+        },
+        "Date": {
+            "id": "dlhZ",
+            "type": "date",
+            "date": {
+                "start": "date",
+                "end": null,
+                "time_zone": null
+            }
+        },
+"Amount": {
+            "id": "ZMPw",
+            "type": "number",
+            "number": amount        }
+    }
+}
