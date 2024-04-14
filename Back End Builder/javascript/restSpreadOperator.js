@@ -13,11 +13,11 @@ console.log(arr2);
 //Exersice: Return the sum of an array
 const prices = [5, 10, 15, 20, 25, 30];
 
-const total = prices.reduce(sum);
+const total1 = prices.reduce(sum1);
 
-console.log(`$${total.toFixed(2)}`);
+console.log(`$${total1.toFixed(2)}`);
 
-function sum(acc, cur) {
+function sum1(acc, cur) {
   return acc + cur;
 }
 
@@ -37,3 +37,10 @@ function getMax(acc, curr) {
 function getMin(acc, cur) {
   return Math.min(acc, cur);
 }
+
+// Parse the callback to the reduce method as a parameter
+const numbers = [1, -1, 2, 3];
+
+const total2 = numbers.reduce((acc, cur) => acc + cur);
+
+console.log(total2);
