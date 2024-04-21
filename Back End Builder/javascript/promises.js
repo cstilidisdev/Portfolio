@@ -9,7 +9,7 @@ const myPromise1 = new Promise((resolve, reject) => {
   }
 });
 
-myPromise
+myPromise1
   .then(() => console.log("Success"))
   .catch(() => console.error("Something went wrong"));
 
@@ -18,3 +18,18 @@ const myPromise2 = fetch("https://pokeapi.co/api/v2/pokemon/ditto")
   .then((res) => res.json())
   .then((data) => console.log(data))
   .catch(() => console.error(err));
+
+//
+
+//fetch with await - pokemonAPI
+const fetchPokemon = async (id) => {
+  try {
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+    const data = await res.json();
+    console.log(data);
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+fetchPokemon(3);
